@@ -1,0 +1,183 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>About me | MINGZHAO</title>
+<link rel="shortcut icon" href="https://mingzhao-econ.github.io/favicon.ico?v=1616597587686">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://mingzhao-econ.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="About me | MINGZHAO - Atom Feed" href="https://mingzhao-econ.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+Welcome to my personal website!
+
+
+👨‍💻 Who I am
+2020 till now,       UIBE, Global Value Chain, Economics
+2018 - 2019, ..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://mingzhao-econ.github.io">
+  <img class="avatar" src="https://mingzhao-econ.github.io/images/avatar.png?v=1616597587686" alt="">
+  </a>
+  <h1 class="site-title">
+    MINGZHAO
+  </h1>
+  <p class="site-description">
+    Major in economics.
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          Home
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          Archive
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          Tag
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          About me
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              About me
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-01-25
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <blockquote>
+<p>Welcome to my personal website!</p>
+</blockquote>
+<hr>
+<h2 id="who-i-am">👨‍💻 Who I am</h2>
+<p>2020 till now,       UIBE, Global Value Chain, Economics<br>
+2018 - 2019,  Wuhan University, German, Literature (minor)<br>
+2016 - 2020,  Wuhan University, Hydrology and Water Resources, Engineering</p>
+<h2 id="fields-interested">⛹ Fields interested</h2>
+<p>Trade theory, Industrial organization, Economic geography</p>
+<h2 id="contact-me">📬 Contact me</h2>
+<p>E-mail: 202011712334@uibe.edu.cn<br>
+Address: Huiwen Flat, UIBE, Huixin Dong Street, Chaoyang District, Beijing, 100029</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#who-i-am">👨‍💻 Who I am</a></li>
+<li><a href="#fields-interested">⛹ Fields interested</a></li>
+<li><a href="#contact-me">📬 Contact me</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://mingzhao-econ.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

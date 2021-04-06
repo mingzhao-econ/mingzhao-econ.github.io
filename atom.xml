@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mingzhao-econ.github.io</id>
     <title>MINGZHAO</title>
-    <updated>2021-03-25T06:15:05.415Z</updated>
+    <updated>2021-04-06T09:21:14.054Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mingzhao-econ.github.io"/>
     <link rel="self" href="https://mingzhao-econ.github.io/atom.xml"/>
@@ -10,4 +10,14 @@
     <logo>https://mingzhao-econ.github.io/images/avatar.png</logo>
     <icon>https://mingzhao-econ.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, MINGZHAO</rights>
+    <entry>
+        <title type="html"><![CDATA[Does the position along the river determine the production distribution? under a pollution tax agreement]]></title>
+        <id>https://mingzhao-econ.github.io/post/position-and-the-production-distribution/</id>
+        <link href="https://mingzhao-econ.github.io/post/position-and-the-production-distribution/">
+        </link>
+        <updated>2021-04-06T08:52:19.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://mingzhao-econ.github.io/post-images/1617700717594.JPG" alt="" loading="lazy"><br>
+<img src="https://mingzhao-econ.github.io/post-images/1617700728846.JPG" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
 </feed>

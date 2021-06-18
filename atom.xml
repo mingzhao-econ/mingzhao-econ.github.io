@@ -2,14 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mingzhao-econ.github.io</id>
     <title>MINGZHAO</title>
-    <updated>2021-04-06T09:23:38.576Z</updated>
+    <updated>2021-06-18T10:04:29.323Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mingzhao-econ.github.io"/>
     <link rel="self" href="https://mingzhao-econ.github.io/atom.xml"/>
-    <subtitle>Major in economics.</subtitle>
+    <subtitle>Majoring in economics.</subtitle>
     <logo>https://mingzhao-econ.github.io/images/avatar.png</logo>
     <icon>https://mingzhao-econ.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, MINGZHAO</rights>
+    <entry>
+        <title type="html"><![CDATA[Slides | Antràs P. & Staiger R.W. , 2012, Offshoring and the Role of Trade Agreements]]></title>
+        <id>https://mingzhao-econ.github.io/post/A&amp;S-2012-offshoring/</id>
+        <link href="https://mingzhao-econ.github.io/post/A&amp;S-2012-offshoring/">
+        </link>
+        <updated>2021-06-18T06:59:54.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="about-this-paper">About this paper</h2>
+<p>This paper was published on <em>American Economic Review</em> in 2012, and you can get access to it by click <a href="https://www.aeaweb.org/articles?id=10.1257/aer.102.7.3140"> AEA | Offshoring and the Role of Trade Agreements</a></p>
+<p><img src="https://mingzhao-econ.github.io/post-images/1624009317425.JPG" alt="" loading="lazy"><br>
+<img src="https://mingzhao-econ.github.io/post-images/1624009331578.JPG" alt="" loading="lazy"><br>
+<img src="https://mingzhao-econ.github.io/post-images/1624009340682.JPG" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Does the position along the river determine the production distribution? under a pollution tax agreement]]></title>
         <id>https://mingzhao-econ.github.io/post/position-and-the-production-distribution/</id>

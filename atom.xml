@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mingzhao-econ.github.io</id>
     <title>MINGZHAO</title>
-    <updated>2021-06-18T11:55:24.457Z</updated>
+    <updated>2021-06-18T11:59:16.713Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mingzhao-econ.github.io"/>
     <link rel="self" href="https://mingzhao-econ.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://mingzhao-econ.github.io/post/sample-calling-for-equality/">
         </link>
         <updated>2021-06-18T10:49:06.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://mingzhao-econ.github.io/post-images/1624014685081.JPG" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://mingzhao-econ.github.io/post-images/1624017511870.JPG" alt="" loading="lazy"><br>
 Copyright reserved. If you want the access to the pdf, email <a href="mailto:202011712334@uibe.edu.cn">Mingzhao DAI</a> (202011712334@uibe.edu.cn).</p>
 ]]></content>
     </entry>

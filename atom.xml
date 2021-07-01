@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mingzhao-econ.github.io</id>
     <title>MINGZHAO</title>
-    <updated>2021-06-18T12:12:01.999Z</updated>
+    <updated>2021-07-01T13:52:47.434Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mingzhao-econ.github.io"/>
     <link rel="self" href="https://mingzhao-econ.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://mingzhao-econ.github.io/images/avatar.png</logo>
     <icon>https://mingzhao-econ.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, MINGZHAO</rights>
+    <entry>
+        <title type="html"><![CDATA[Writing Sample | Screening Intermediate Quality Through Third Party Certification]]></title>
+        <id>https://mingzhao-econ.github.io/post/screening-intermediate-quality/</id>
+        <link href="https://mingzhao-econ.github.io/post/screening-intermediate-quality/">
+        </link>
+        <updated>2021-07-01T13:44:26.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://mingzhao-econ.github.io/post-images/1625147120539.JPG" alt="" loading="lazy"><br>
+<img src="https://mingzhao-econ.github.io/post-images/1625147130168.JPG" alt="" loading="lazy"><br>
+<img src="https://mingzhao-econ.github.io/post-images/1625147136971.JPG" alt="" loading="lazy"><br>
+Copyright reserved. If you want the access to the pdf, email <a href="mailto:202011712334@uibe.edu.cn">Mingzhao DAI</a> (202011712334@uibe.edu.cn).</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Writing Sample | Calling for Equality: the Role of Transboundary Rivers' Pollution Tax Agreements (proposal)]]></title>
         <id>https://mingzhao-econ.github.io/post/sample-calling-for-equality/</id>

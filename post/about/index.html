@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>About me | MINGZHAO</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://mingzhao-econ.github.io/favicon.ico?v=1700143799438">
+<link rel="stylesheet" href="https://mingzhao-econ.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="
+Welcome to my personal website. Feel free to have a look around. I would appreciate if you leave some comments at the b..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://mingzhao-econ.github.io">
+        <img src="https://mingzhao-econ.github.io/images/avatar.png?v=1700143799438" class="site-logo">
+        <h1 class="site-title">MINGZHAO</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            Homepage
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            Post Archive
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            Tags
+          </a>
+        
+      
+        
+          <a href="https://mingzhao-econ.github.io/post/pictures" class="site-nav">
+            Pictures
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            About me
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Work like a economist | Think like a sociologist
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://mingzhao-econ.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">About me</h2>
+            <div class="post-date">2023-10-19</div>
+            
+            <div class="post-content" v-pre>
+              <blockquote>
+<p>Welcome to my personal website. Feel free to have a look around. I would appreciate if you leave some comments at the bottom of each post.</p>
+</blockquote>
+<p>I am a PhD student at the <a href="https://berlinschoolofeconomics.de/home"><strong>Berlin School of Economics</strong></a> and affiliated at the <strong>Humboldt-Universität zu Berlin</strong>.</p>
+<p>I am interested in Applied Micro Theory and Industrial Organization. To be specific, I prefer to analyze firm's behavior and strategy under incomplete information. Sometimes I apply this methodology to the field of International Trade. I am now learning the &quot;language&quot; of Microeconomic theory, as well as the &quot;language&quot; of depicting the economy and the society.</p>
+<h2 id="education-background"><em><strong>Education Background</strong></em></h2>
+<p>Since 2023<br>
+<strong>Berlin School of Economics</strong>,  PhD candidate in Economics<br>
+Affiliated at Humboldt-Universität zu Berlin</p>
+<p>2022 - 2023<br>
+<strong>Universidad Carlos III de Madrid</strong>, Master in Economic Analysis - structurally leading to the PhD program<br>
+did not finish this degree and left on half way</p>
+<p>2020 - 2022<br>
+<strong>University of International Business and Economics</strong> in Beijing, Master in Economics<br>
+Subject: International Trade - Global Value Chains<br>
+Supervisor: Prof. Xiaopeng Yin</p>
+<p>2016 - 2020<br>
+<strong>Wuhan University</strong>, Bachelor in Engineering<br>
+Major: Hydrology, with minor in German</p>
+<h2 id="research-interest"><em><strong>Research Interest</strong></em></h2>
+<p><strong>Applied Micro Theory</strong>: Contract theory, industrial organization, information economics and their applications,<br>
+<strong>International Trade</strong>: Offshoring, vertical structure of firms, global value chains,<br>
+<strong>Public Economics</strong>: Income distribution and public goods provision,<br>
+<strong>Environmental Economics</strong>: Dynamic pollution taxes with sequential agents</p>
+<h2 id="contact"><em><strong>Contact</strong></em></h2>
+<p>Email:<br>
+<a href="mailto:academic@mdai-econ.com">academic@mdai-econ.com</a><br>
+(You can also send emails to my previous institutional email addresses: <a href="mailto:mdai@eco.uc3m.es">mdai@eco.uc3m.es</a> <em>OR</em> <a href="mailto:202011712334@uibe.edu.cn">202011712334@uibe.edu.cn</a>. They are still valid.)</p>
+<p>Address:<br>
+Mingzhao Dai<br>
+Wirtschaftswissenschaftliche Fakultät HU Berlin, Room 317<br>
+Spandauer Str. 1, 10178, Berlin, Germany</p>
+
+            </div>
+            
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

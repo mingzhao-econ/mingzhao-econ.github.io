@@ -1,0 +1,137 @@
+
+<meta charset="utf-8" >
+
+<title>Homepage | MINGZHAO</title>
+<meta name="description" content="&lt;p&gt;Work like a economist | Think like a sociologist&lt;/p&gt;">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://mingzhao-econ.github.io/favicon.ico?v=1753574175777">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://mingzhao-econ.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+
+<!-- 添加Vue挂载点，包裹所有Vue控制的内容 -->
+<div id="app">
+  <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://mingzhao-econ.github.io">
+        <img class="avatar" src="https://mingzhao-econ.github.io/images/avatar.png?v=1753574175777" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://mingzhao-econ.github.io">
+        <h1 class="site-title">MINGZHAO</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://mingzhao-econ.github.io/post/research" class="menu purple-link">
+            Research
+          </a>
+        
+      
+        
+          <a href="https://mingzhao-econ.github.io/post/teaching" class="menu purple-link">
+            Teaching
+          </a>
+        
+      
+        
+          <a href="https://mingzhao-econ.github.io/post/pictures" class="menu purple-link">
+            Pictures
+          </a>
+        
+      
+        
+          <a href="https://mingzhao-econ.github.io/archives" class="menu purple-link">
+            Blog Posts
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            About me
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+  <div style="display: flex; align-items: center; justify-content: center; min-height: 80vh;">
+    <div class="content-container about-me" style="max-width: 700px; padding: 2em 1em; line-height: 1.8;">
+      <br>
+      <div class="image-container" style="text-align: left; margin: 2em 0;">
+        <img src="/images/Profile.jpg" alt="Personal Photo" style="max-width: 30%; height: auto; border-radius: 10px;">
+      </div>
+      <h1 style="font-size: 2em; font-weight: bold; margin-bottom: 0.5em;">Mingzhao Dai</h1>
+      <p>I am a PhD student at <a href="https://berlinschoolofeconomics.de/home" target="_blank" style="color: blue; text-decoration: underline;">Berlin School of Economics</a> and <a href="https://www.wiwiss.fu-berlin.de/fachbereich/vwl/asseyer/team/Mingzhao-Dai/index.html" target="_blank" style="color: blue; text-decoration: underline;">Free University of Berlin</a>. I am doing microeconomic theory, mainly focusing on information design and mechanism design.</p>
+      <br>
+      <p>My supervisors are <a href="https://sites.google.com/site/andreasasseyer/home" target="_blank" style="color: blue; text-decoration: underline;">Andreas Asseyer</a> and <a href="https://sites.google.com/view/rolandstrausz/home" target="_blank" style="color: blue; text-decoration: underline;">Roland Strausz</a>.</p>
+      <br>
+      <h1 style="font-size: 1.6em; font-weight: bold; margin-bottom: 0.5em;">Contact</h1>
+      <p>Email:</p>
+      <p><a href="mailto:academic@mdai-econ.com" style="color: blue; text-decoration: underline;">academic@mdai-econ.com</a> or <a href="mailto: m.dai@fu-berlin.de" style="color: blue; text-decoration: underline;">m.dai@fu-berlin.de</a>.</p>
+      <p>Address:</p>
+      <p>Boltzmannstr. 20, Room 244</p>
+      <p>14195 Berlin, Germany</p>
+      
+    </div>
+  </div>
+
+  <div class="site-footer">
+  <div class="slogan"><p>Work like a economist | Think like a sociologist</p></div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://mingzhao-econ.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+</div> <!-- 结束Vue挂载点 -->
+
+<script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
